@@ -17,3 +17,5 @@ let p2 = new Person("Umberto", 25);
 let p3 = new Person("Andrea", 24);
 
 p1.compareAge(p2);
+p2.compareAge(p3);
+p3.compareAge(p1);
